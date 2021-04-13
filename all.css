@@ -1,0 +1,22 @@
+.wrapper {
+  display:flex;
+  justify-content:center;
+}
+/* 
+.pagination {
+  margin:50vh;
+} */
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
